@@ -1,0 +1,14 @@
+@startuml
+
+Interface QueInterface{
+isEmpty(): boolean
+isFull(): boolean
+dequeue() throws QueueUnderflowException: T
+size(): int
+enqueue(T e) throws QueueOverflowException: boolean
+toString(): String
+toString(String delimiter): String
+void fill(ArrayList<T> list)
+}
+
+@enduml

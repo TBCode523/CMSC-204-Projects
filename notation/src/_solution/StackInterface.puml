@@ -1,0 +1,15 @@
+@startuml
+Interface StackInterface{
+isEmpty(): boolean
+isFull(): boolean
+pop() throws QueueUnderflowException: T
+top() throws QueueUnderflowException: T
+size(): int
+push(T e) throws QueueOverflowException: boolean
+toString(): String
+toString(String delimiter): String
+void fill(ArrayList<T> list)
+}
+
+
+@enduml

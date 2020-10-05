@@ -1,0 +1,22 @@
+@startuml
+
+
+
+class NotationStack {
+elementData: <T>[]
+size: int
+top: int
+isEmpty(): boolean
+isFull(): boolean
+pop() throws StackUnderflowException: T
+top() throws StackUnderflowException: T
+size(): int
+push(e: T) throws StackOverflowException: boolean
+toString(): String
+ toString(delimiter: String): String
+ void fill(list: ArrayList<T>)
+}
+
+
+
+@enduml

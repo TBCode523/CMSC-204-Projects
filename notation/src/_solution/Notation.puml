@@ -1,0 +1,18 @@
+@startuml
+
+class Notation{
+
+
+public static double evaluatePostfixExpression(String postfixExpr)
+            throws InvalidNotationFormatException
+
+public static String convertPostfixToInfix(String postfix)
+            throws InvalidNotationFormatException
+
+ public static String convertInfixToPostfix(String infix)
+            throws InvalidNotationFormatException
+
+}
+
+
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+
+class NotationQueue{
+firstNode: NotationNode
+lastNode: NotationNode
+capacity: int
+size: int
+isEmpty(): boolean
+isFull(): boolean
+dequeue() throws QueueUnderflowException: T
+size(): int
+enqueue(e: T) throws QueueOverflowException: boolean
+toString(): String
+toString(delimiter : String): String
+void fill(list: ArrayList<T>)
+
+}
+
+@enduml
